@@ -18,7 +18,6 @@ RUN apk add --no-cache ca-certificates
 COPY --from=builder /go-ethereum/build/bin/geth /usr/local/bin/
 
 EXPOSE 8545 8546 30303 30303/udp
-ENTRYPOINT ["geth"]
 
 # Add some metadata labels to help programatic image consumption
 ARG COMMIT=""
@@ -26,3 +25,9 @@ ARG VERSION=""
 ARG BUILDNUM=""
 
 LABEL commit="$COMMIT" version="$VERSION" buildnum="$BUILDNUM"
+
+ADD genesis.json /genesis.json
+
+RUN echo 'geth init /genesis.json' > geth.sh
+
+ENTRYPOINT ["/bin/sh", "geth.sh"]
