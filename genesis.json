@@ -6,7 +6,7 @@
     "eip150Hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
     "eip155Block": 2675000,
     "eip158Block": 2675000,
-    "byzantiumBlock": 437000,
+    "byzantiumBlock": 4370000,
     "constantinopleBlock": 7280000,
     "petersburgBlock": 7280000,
     "istanbulBlock": 90690000,
