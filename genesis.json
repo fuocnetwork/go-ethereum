@@ -9,9 +9,9 @@
     "byzantiumBlock": 4370000,
     "constantinopleBlock": 7280000,
     "petersburgBlock": 7280000,
-    "istanbulBlock": 90690000,
+    "istanbulBlock": 9069000,
     "berlinBlock": 9200000,
-    "londonBlock": 1224000,
+    "londonBlock": 12240000,
     "clique": {
       "period": 15,
       "epoch": 30000
