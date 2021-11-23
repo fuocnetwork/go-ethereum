@@ -1,11 +1,11 @@
 {
   "config": {
     "chainId": 145,
-    "homesteadBlock": 1150000,
-    "eip150Block": 2463000,
+    "homesteadBlock": 0,
+    "eip150Block": 0,
     "eip150Hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
-    "eip155Block": 2675000,
-    "eip158Block": 2675000,
+    "eip155Block": 0,
+    "eip158Block": 0,
     "byzantiumBlock": 4370000,
     "constantinopleBlock": 7280000,
     "petersburgBlock": 7280000,
